@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Entornos virtuales
+venv/
+.env
+
+# Archivos de proyecto
+.idea/
+.vscode/
+*.swp
+
+# Archivos de salida y datos
+output/
+audio_chunks/
+temp_live.wav
+*.log
+
+# Cuentas y secretos (¡MUY IMPORTANTE!)
+credentials.json
+token.json
+.formatted_credentials.json
+
+# Modelos IA (Se descargan con script)
+model/
